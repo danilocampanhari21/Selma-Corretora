@@ -32,7 +32,7 @@
         <video class="video-slide" src="video/4.mp4" autoplay muted loop></video>
         <video class="video-slide" src="video/5.mp4" autoplay muted loop></video>
         
-        <div class="content">
+        <div class="content active">
             <h1>SUA CASA<br><span>É AQUI</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quos nostrum! Earum perspiciatis quidem, reiciendis dolores explicabo exercitationem deserunt tenetur et ab porro adipisci sapiente doloremque, officiis mollitia dignissimos molestiae rerum vitae culpa, aliquam assumenda ratione impedit. Distinctio voluptate quibusdam, similique veritatis dolorem vel provident optio reiciendis saepe dolorum accusamus rerum eveniet ipsum, harum pariatur natus vero! Dignissimos cupiditate accusamus doloribus sed inventore consequatur consectetur, perferendis reprehenderit repudiandae, nisi ea dolores nulla illo blanditiis tempora non unde ullam quas quos sapiente! Modi ipsum amet dolores non ipsa suscipit pariatur tempora maiores porro? Voluptas, aspernatur quod. Voluptas nemo iusto ipsa tempore?,</p>
             <a href="#">Continuar Lendo</a>
@@ -51,13 +51,13 @@
         </div>
 
         <div class="content">
-            <h1>SUA CASA<br><span>É AQUI</span></h1>
+            <h1>TESTANDO ABA<br><span>Testando</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quos nostrum! Earum perspiciatis quidem, reiciendis dolores explicabo exercitationem deserunt tenetur et ab porro adipisci sapiente doloremque, officiis mollitia dignissimos molestiae rerum vitae culpa, aliquam assumenda ratione impedit. Distinctio voluptate quibusdam, similique veritatis dolorem vel provident optio reiciendis saepe dolorum accusamus rerum eveniet ipsum, harum pariatur natus vero! Dignissimos cupiditate accusamus doloribus sed inventore consequatur consectetur, perferendis reprehenderit repudiandae, nisi ea dolores nulla illo blanditiis tempora non unde ullam quas quos sapiente! Modi ipsum amet dolores non ipsa suscipit pariatur tempora maiores porro? Voluptas, aspernatur quod. Voluptas nemo iusto ipsa tempore?,</p>
             <a href="#">Continuar Lendo</a>
         </div>
 
         <div class="content">
-            <h1>SUA CASA<br><span>É AQUI</span></h1>
+            <h1>Estamos aqui<br><span>Nova aba</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quos nostrum! Earum perspiciatis quidem, reiciendis dolores explicabo exercitationem deserunt tenetur et ab porro adipisci sapiente doloremque, officiis mollitia dignissimos molestiae rerum vitae culpa, aliquam assumenda ratione impedit. Distinctio voluptate quibusdam, similique veritatis dolorem vel provident optio reiciendis saepe dolorum accusamus rerum eveniet ipsum, harum pariatur natus vero! Dignissimos cupiditate accusamus doloribus sed inventore consequatur consectetur, perferendis reprehenderit repudiandae, nisi ea dolores nulla illo blanditiis tempora non unde ullam quas quos sapiente! Modi ipsum amet dolores non ipsa suscipit pariatur tempora maiores porro? Voluptas, aspernatur quod. Voluptas nemo iusto ipsa tempore?,</p>
             <a href="#">Continuar Lendo</a>
         </div>
@@ -102,6 +102,10 @@
 
             slides.forEach((slide) => {
                 slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
             });
 
             btns[manual].classList.add("active");

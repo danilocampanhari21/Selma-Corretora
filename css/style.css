@@ -79,6 +79,11 @@ section {
     color: #FFF;
     width: 70%;
     margin-top: 50px;
+    display: none;
+}
+
+.home .content.active{
+    display: block;
 }
 
 .home .content h1 {
